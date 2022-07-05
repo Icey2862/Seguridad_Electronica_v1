@@ -1,0 +1,126 @@
+$color1:white;
+$color2:black;
+$color3:rgb(60, 139, 224);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  height: 800px;
+  .logoSegurity{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    background-color: $color3;
+    h1{
+      width: 70%;
+      justify-content: flex-end;
+      align-self: center;
+      font-size: 64px;
+    }
+    img{
+      width: 30%;
+      justify-content: flex-start;
+      align-self: center;
+    }
+  }
+  section{
+    display: flex;
+    flex-direction: row;
+    background-color: $color2;
+    z-index: 1;
+    padding-bottom: 2px;
+    .navBar{
+      width: 50%;
+      height: 50px;
+      background-color: $color1;
+      z-index: 2;
+      ul{
+        display: flex;
+        list-style-type: none;
+      }
+      li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 36px;
+        padding-right: 40px;
+        height: 50px;
+        border: 1px solid $color2;
+      }
+      a{
+        color: $color2;
+        text-decoration: none;
+      }
+    }
+    .findBar{
+      width: 50%;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      input{
+        display: flex;
+        margin-right: 6px;
+        border-radius: 50px;
+        height: 30px;
+        text-align: center;
+      }
+      button{
+        border-radius: 50px;
+        height: 30px;
+        width: 60px;
+        font-size: 14px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.aboutUs{
+  display: flex;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 100px;
+  h2{
+    font-size: 24px;
+  }
+  p{
+      width: 90%;
+      margin: 0 auto;
+      padding-bottom: 30px;
+      line-height: 30px;
+      font-size: 16px;
+      color: $color2;
+  }
+}
+
+.aboutFlex{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 20px 150px;
+}
+
+.social{
+  border-left: $color2 solid;
+  padding-left: 50px;
+  img{
+      width: 60px;
+      margin: 10px;
+  }
+  img:hover{
+      transform: scale(1.2);
+  }
+}
+
+footer{
+  background-color: $color3;
+  width: 100%;
+  height: 200px;
+}
+/*# sourceMappingURL=styles.scss.map */

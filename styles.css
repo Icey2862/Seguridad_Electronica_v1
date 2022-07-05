@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 800px;
+}
+header .logoSegurity {
+  width: 100%;
+  height: 620px;
+  display: flex;
+  background-color: rgb(60, 139, 224);
+}
+header .logoSegurity h1 {
+  width: 70%;
+  justify-content: flex-end;
+  align-self: center;
+  font-size: 64px;
+}
+header .logoSegurity img {
+  width: 30%;
+  justify-content: flex-start;
+  align-self: center;
+}
+header section {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  z-index: 1;
+  padding-bottom: 2px;
+}
+header section .navBar {
+  width: 50%;
+  height: 50px;
+  background-color: white;
+  z-index: 2;
+}
+header section .navBar ul {
+  display: flex;
+  list-style-type: none;
+}
+header section .navBar li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 36px;
+  padding-right: 40px;
+  height: 50px;
+  border: 1px solid black;
+}
+header section .navBar a {
+  color: black;
+  text-decoration: none;
+}
+header section .findBar {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header section .findBar input {
+  display: flex;
+  margin-right: 6px;
+  border-radius: 50px;
+  height: 30px;
+  text-align: center;
+}
+header section .findBar button {
+  border-radius: 50px;
+  height: 30px;
+  width: 60px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.aboutUs {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 100px;
+}
+.aboutUs h2 {
+  font-size: 24px;
+}
+.aboutUs p {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  color: black;
+}
+
+.aboutFlex {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 20px 150px;
+}
+
+.social {
+  border-left: black solid;
+  padding-left: 50px;
+}
+.social img {
+  width: 60px;
+  margin: 10px;
+}
+.social img:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  background-color: rgb(60, 139, 224);
+  width: 100%;
+  height: 200px;
+}
+
+/*# sourceMappingURL=styles.scss.map */
+
+/*# sourceMappingURL=styles.css.map */
