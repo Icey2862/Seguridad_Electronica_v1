@@ -1,12 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../styles.css">
+    <title>Primera Entrega Final CoderHouse</title>
 </head>
 <body>
-    
+    <header>
+        <article class="logoSegurity">
+            <img src="" alt="Logo_Seguridad_Electronica">
+            <h1>Seguridad Electronica ZN</h1>
+        </article>
+        <section>
+            <article class="navBar">
+                <ul>
+                    <li><a href="./../index.html">Home</a></li>
+                    <li><a href="./products.html">Productos</a></li>
+                    <li><a href="#">Armar Presupuesto</a></li>
+                    <li><a href="./questions.html">Preguntas frecuentes</a></li>
+                </ul>
+            </article>
+            <article class="findBar">
+                <input type="text" placeholder="¿Que desea buscar?" area-label="Search">
+                <button type="submit">Buscar</button>
+            </article>
+        </section>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dicta distinctio natus pariatur vero eius mollitia dolorem odit cumque nam temporibus exercitationem vitae autem ullam, ratione minus praesentium maiores neque.</p>
+            </article>
+        </section>
+        <section>
+            <div class="square">
+                <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+                    <h3>Para reclamos/mayorista rellene el formulario</h3>
+                    <article>
+                        <label for="Nombre">Nombre:</label>
+                        <input type="text" name="nombre" required placeholder="Ingrese su nombre">
+                    </article>
+
+                    <article>
+                        <label for="telefono">Telefono:</label>
+                        <input type="number" name="telefono" required placeholder="Numero de telefono">
+                    </article>
+
+                    <article>
+                        <label for="correo">Correo:</label>
+                        <input type="email" name="correo" required placeholder="Ingrese su correo">
+                    </article>
+
+                    <article>
+                        <select name="Tipo de soporte">
+                            <option value="">Compra mayorista</option>  
+                            <option value="">El envio no ha llegado</option>
+                    </article>
+
+                    <article>
+                        <textarea name="Explicanos en poco" cols="26" rows="10" placeholder="Explicanos un poco" required></textarea><br>
+                        <input class="btn btn-dark" type="submit" name="Enviar">
+                        <input class="btn btn-dark" type="reset" name="Resetear">
+                    </article>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <article>
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </article>
+
+            <article>
+                <h3>MEDIOS DE PAGO</h3>
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </article>
+
+            <article>
+                <h3>REDES SOCIALES</h3>
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <a href="./sections/questions.html">PREGUNTAS FRECUENTES</a>
+            </article>
+
+
+        </section>
+
+    </footer>
+
+
+    <script src="./app.js"></script>
 </body>
 </html>

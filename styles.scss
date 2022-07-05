@@ -7,6 +7,9 @@ $color3:rgb(60, 139, 224);
   padding: 0;
   box-sizing: border-box;
 }
+
+//-- Header scss
+
 header{
   width: 100%;
   height: 800px;
@@ -61,7 +64,7 @@ header{
       height: 50px;
       display: flex;
       align-items: center;
-      justify-content: flex-end;
+      justify-content: center;
       input{
         display: flex;
         margin-right: 6px;
@@ -79,7 +82,61 @@ header{
     }
   }
 }
+//-------------------------------------------------------------------------------------------------
 
+//-- FOOTER scss
+
+footer{
+  background-color: $color3;
+  width: 100%;
+  height: 200px;
+}
+
+//-------------------------------------------------------------------------------------------------
+
+//-- index scss
+
+
+
+
+
+
+
+
+
+//-------------------------------------------------------------------------------------------------
+
+//-- budget scss
+
+
+
+
+
+
+
+
+
+
+
+
+//-------------------------------------------------------------------------------------------------
+
+//-- Product scss
+
+
+
+
+
+
+
+
+
+
+
+//-------------------------------------------------------------------------------------------------
+
+
+//-- questions scss
 .aboutUs{
   display: flex;
   width: 100%;
@@ -117,10 +174,7 @@ header{
       transform: scale(1.2);
   }
 }
+//-------------------------------------------------------------------------------------------------
 
-footer{
-  background-color: $color3;
-  width: 100%;
-  height: 200px;
-}
+
 /*# sourceMappingURL=styles.scss.map */
